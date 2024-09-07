@@ -1,0 +1,542 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  font-family: "Montserrat",  system-ui;
+}
+
+.dim {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(41, 53, 61, 0.9);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image_background {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./image/WhatsApp\ Image\ 2024-08-23\ at\ 22.25.26_4dea7cd5.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: contain;
+}
+
+header {
+  width: 60%;
+  height: 80px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: red; */
+  /* gap: 80px; */
+}
+
+.navigation {
+  /* width: 80%; */
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  font-weight: bold;
+}
+
+.sect2 {
+  width: 60%;
+  height: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text_holder {
+  width: 50%;
+  /* background-color: aqua; */
+  height: 50%;
+}
+
+span {
+  color: rgb(4, 215, 222);
+}
+
+.image_holder {
+  width: 50%;
+  height: 500px;
+  /* background-image: url(/image/222.png); */
+  object-fit: contain;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30%;
+  margin-left: 10%;
+}
+
+.image_holder img {
+  width: 500px;
+  height: 400px;
+  object-fit: contain;
+}
+
+.sec3 {
+  width: 100%;
+  height: 530px;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  background-color: rgb(38, 47, 55);
+  justify-content: center;
+}
+
+.image_holder1 {
+  width: 30%;
+  height: 300px;
+  background-image: url(/image/png.png);
+  object-fit: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 15%;
+}
+
+.box {
+  width: 60%;
+  height: 500px;
+  display: flex;
+  /* background-color: blue; */
+  justify-content: space-between;
+}
+
+.text1 {
+  width: 65%;
+  height: 550px;
+  /* background-color: black; */
+  display: flex;
+  flex-direction: column;
+}
+
+.about {
+  /* background-color: aqua; */
+  display: flex;
+  height: 15%;
+  align-items: center;
+  width: 80%;
+}
+
+.me {
+  width: 40%;
+  padding-left: 60px;
+  display: flex;
+}
+
+.nav1 {
+  height: 15%;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  font-weight: bold;
+  /* background-color: blue; */
+  font-weight: lighter;
+  justify-content: space-between;
+  /* gap: 20px; */
+}
+
+.education {
+  height: 420px;
+  width: 90%;
+  /* background-color: brown; */
+  text-align: left;
+  font-size: 14px;
+
+}
+
+.sec4 {
+  width: 100%;
+  height: 400px;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  background-color: rgb(38, 47, 55);
+  justify-content: center;
+}
+
+.sec4_holder {
+  width: 60%;
+  height: 400px;
+  /* background-color: aqua; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.circule {
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  background-color: white;
+}
+
+.rating {
+  width: 254px;
+  height: 15px;
+  background-color: rgb(66, 82, 98);
+  display: flex;
+  border-radius: 50px;
+  text-align: center;
+  /* justify-content: space-evenly; */
+  gap: 80px;
+  align-items: center;
+}
+
+.rating2 {
+  width: 55%;
+  height: 15px;
+  background-color: rgb(4, 215, 222);
+  border-radius: 50px;
+  /* float: right; */
+}
+
+.rating_holder {
+  width: 50%;
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.ratings {
+  margin-top: 20px;
+}
+
+.num {
+  /* background-color: blue; */
+  height: 15px;
+  width: 15px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: small;
+}
+
+.SKILLS {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  background-color: rgb(38, 47, 55);
+  width: 100%;
+}
+
+.sec5 {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(38, 47, 55);
+  display: flex;
+  justify-content: center;
+}
+
+.sec5_card {
+  width: 60%;
+  height: 400px;
+  background-color: rgb(38, 47, 55);
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  width: 260px;
+  height: 330px;
+  border-radius: 10px;
+  /* justify-content: center; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(27, 35, 41);
+}
+
+.BTN {
+  width: 200px;
+  height: 30px;
+  border: none;
+  font-weight: bold;
+  border-radius: 300px;
+}
+
+.card1 {
+  width: 260px;
+  height: 330px;
+  border-radius: 10px;
+  /* justify-content: center; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(27, 35, 41);
+  border: 2px solid rgb(6, 224, 224);
+}
+
+.card_img {
+  width: 70px;
+  height: 70px;
+  border-radius: 100px;
+  /* background-color: white; */
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./image/1.png);
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; 
+}
+
+.card_img1{
+  width: 70px;
+  height: 70px;
+  border-radius: 100px;
+  /* background-color: white; */
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./image/2.png);
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; 
+}
+
+.media{
+  height: 30px;
+  width: 200px;
+  /* background-color: aqua;  */
+}
+
+.media img{
+  height: 30px;
+  width: 40px;
+}
+
+.card_img2{
+  width: 70px;
+  height: 70px;
+  border-radius: 100px;
+  /* background-color: white; */
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./image/3.png);
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; 
+}
+
+.button{
+  width: 250px;
+  height: 50px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+
+}
+
+.button button{
+  height: 30px;
+  border-radius: 30px;
+  width: 120px;
+  font-weight: bold;
+  border: none;
+  background-color: rgb(4, 215, 222);
+  color: black;
+}
+.btn{
+  background-color: rgb(4, 215, 222);
+  width: 200px;
+  height: 30px;
+  border: none;
+  font-weight: bold;
+  border-radius: 300px;
+  color: white;
+}
+
+.sec6 {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(38, 47, 55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_holder {
+  width: 60%;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.single_img {
+  width: 250px;
+  height: 180px;
+  background-color: black;
+  border-radius: 20px;
+  background-image: url(./image/WhatsApp\ party\ 2024-08-24\ at\ 15.23.53_5deec21d.jpg);
+  background-position: center;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.single_img1 {
+  width: 250px;
+  height: 180px;
+  background-color: black;
+  border-radius: 20px;
+  background-image: url(./image/WhatsApp\ party\ 2024-08-24\ at\ 15.23.53_5deec21d.jpg);
+  background-position: center;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.single_img2 {
+  width: 250px;
+  height: 180px;
+  background-color: black;
+  border-radius: 20px;
+  background-image: url(./image/WhatsApp\ party\ 2024-08-24\ at\ 15.23.53_5deec21d.jpg);
+  background-position: center;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.single_img3 {
+  width: 250px;
+  height: 180px;
+  background-color: black;
+  border-radius: 20px;
+  background-image: url(./image/WhatsApp\ party\ 2024-08-24\ at\ 15.23.53_5deec21d.jpg);
+  background-position: center;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.single_img4 {
+  width: 250px;
+  height: 180px;
+  background-color: black;
+  border-radius: 20px;
+  background-image: url(./image/WhatsApp\ party\ 2024-08-24\ at\ 15.23.53_5deec21d.jpg);
+  background-position: center;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.single_img5 {
+  width: 250px;
+  height: 180px;
+  background-color: black;
+  border-radius: 20px;
+  background-image: url(./image/WhatsApp\ party\ 2024-08-24\ at\ 15.23.53_5deec21d.jpgssssss);
+  background-position: center;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section7{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  background-color:  rgb(38, 47, 55);n;
+}
+
+.text6{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(38, 47, 55);
+  height: 150px;
+}
+
+.sec7{
+  width: 60%;
+  height: 85%;
+  background-color:  rgb(38, 47, 55);
+  display: flex;
+  /* align-items:center ; */
+  justify-content: space-between;
+}
+
+.text_area{
+  width: 45%;
+  height: 100%;
+  /* background-color: rgb(35, 32, 32); */
+  gap: 20px;
+
+}
+
+.input_area{
+ width: 50%;
+ height: 100%;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between ;
+ /* align-items: center; */
+
+ 
+}
+
+.one{
+  width: 400px;
+  height: 30px;
+  border-radius: 10px;
+  background-color:  rgb(27, 35, 41);
+  color: white;
+  border: none;
+}
+
+.two{
+
+  width: 500px;
+  height: 80px;
+  border-radius: 10px;
+  background-color:  rgb(27, 35, 41);
+  color: white;
+  border: none;
+}
+
+input{
+  width: 190px;
+  border-radius: 10px;
+  height: 30px;
+  background-color:  rgb(27, 35, 41);
+  color: white;
+  border: none;
+}
+
+.but{
+  width: 420px;
+  height: 35px;
+  border-radius: 10px;
+  background-color:  rgb(27, 35, 41);
+  color: white;
+  border: none;
+}
